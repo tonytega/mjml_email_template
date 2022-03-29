@@ -1,0 +1,96 @@
+<mjml>
+ 
+  <mj-body>
+
+    <!-- Company Header -->
+    <mj-section background-color="#f0f0f0">
+        <mj-column >
+            <mj-text align="center" font-style="italic" font-size='20px' color="#626626">
+                Your company
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <!-- Image Header -->
+    <mj-section background-url="./img/image-7.png" background-size='cover' background-repeat='no-repeat'> 
+        <mj-column width="600px">
+       
+            <mj-text align='center'  font-size="40px" font-family="helvetica neue" color='#ffffff'
+             padding-top="100px" padding-bottom="50px">
+                Slogan here
+            </mj-text>
+            <mj-button background-color='#f63a4d' href="#" padding-bottom="50px">
+                Promotion
+            </mj-button>
+            
+            
+        </mj-column>
+    
+    </mj-section>
+
+    <!-- Introduction Text -->
+    <mj-section background-color="#fafafa">
+        <mj-column width="400px">
+            <mj-text font-style="italic" font-size="20px" font-family="helvetica neue" color="#626262">
+                My Awesome Text
+            </mj-text>
+
+            <mj-text color="#525252" line-height="20px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget 
+                magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. 
+                Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. 
+                Nulla aliquet mollis faucibus.
+            </mj-text>
+            <mj-button background-color="#F45E43" padding-top="20px" href="#">
+                Learn more
+            </mj-button>
+            
+        </mj-column>
+    </mj-section>
+
+    <!-- 2 columns section -->
+    <!-- left side -->
+    <mj-section background-color="white">
+        <mj-column>
+            <mj-image width="200px" src="./img/image-4.jpeg" alt="image" />
+        </mj-column>
+
+    <!-- Right side -->
+        <mj-column width="200px">
+            <mj-text font-style="Italic" font-size="20px" font-family="helvetica neue" color="#626262" >
+                Find Amazing Places
+            </mj-text>
+            <mj-text color="#525252" line-height="20px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Proin rutrum enim eget magna efficitur, eu semper augue 
+                semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum 
+                sed finibus lectus.
+            </mj-text>
+            
+        </mj-column>
+    </mj-section>
+
+
+    <!-- Icons -->
+    <mj-section background-color="#000000">
+    <mj-group width="300px">
+        
+    
+        <mj-column >
+            <mj-image width="50px" src="./img/image-1.png" alt="linkedin" />
+        </mj-column>
+        <mj-column>
+            <mj-image width="50px" src="./img/image-2.png" alt="twitter" />
+        </mj-column>
+        <mj-column>
+            <mj-image width="50px" src="./img/image-3.png" alt="instagram" />
+        </mj-column>
+
+    </mj-group>
+    </mj-section>
+
+    <!-- Social icons -->
+    <mj-section background-color="#f0f0f0"></mj-section>
+
+  </mj-body>
+</mjml>
